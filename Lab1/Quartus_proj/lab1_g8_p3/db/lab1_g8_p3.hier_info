@@ -1,0 +1,11 @@
+|lab1_g8_p3
+g => y.IN0
+t => x.IN0
+u => x.IN0
+u => y.IN1
+e => x.IN1
+e => x.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,161 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vlab1_g8_p1
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1682628725
+!i10b 1
+!s100 `QO7l<]8IBWed^WFRaH?h3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+INDVa?OfXK5f^YU1VTI3Q02
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/repos/Lojik/Lojik_Lab1
+w1682628669
+8D:\repos\Lojik\Lojik_Lab1\lab1_g8_p2.sv
+FD:\repos\Lojik\Lojik_Lab1\lab1_g8_p2.sv
+!i122 12
+Z5 L0 3 8
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1682628725.000000
+!s107 D:\repos\Lojik\Lojik_Lab1\lab1_g8_p2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\repos\Lojik\Lojik_Lab1\lab1_g8_p2.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+vlab1_g8_p2
+R0
+Z10 !s110 1682629572
+!i10b 1
+!s100 1<`PT^Mgd?VX?A]bo=6Ro2
+R2
+IzYjYkCT3UgJ@Xl3m[^KbC3
+R3
+S1
+R4
+w1682628812
+8D:/repos/Lojik/Lojik_Lab1/lab1_g8_p2.sv
+FD:/repos/Lojik/Lojik_Lab1/lab1_g8_p2.sv
+!i122 18
+R5
+R6
+r1
+!s85 0
+31
+Z11 !s108 1682629572.000000
+!s107 D:/repos/Lojik/Lojik_Lab1/lab1_g8_p2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/Lojik/Lojik_Lab1/lab1_g8_p2.sv|
+!i113 1
+R8
+R9
+vlab1_g8_p3
+R0
+Z12 !s110 1682634247
+!i10b 1
+!s100 DUfi2aQ<UNeMIl@Mc>@gc1
+R2
+I2obEam6aT][n=;ZMbHz7R1
+R3
+S1
+R4
+w1682634241
+8D:/repos/Lojik/Lojik_Lab1/lab1_g8_p3.sv
+FD:/repos/Lojik/Lojik_Lab1/lab1_g8_p3.sv
+!i122 35
+L0 3 11
+R6
+r1
+!s85 0
+31
+Z13 !s108 1682634247.000000
+!s107 D:/repos/Lojik/Lojik_Lab1/lab1_g8_p3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/Lojik/Lojik_Lab1/lab1_g8_p3.sv|
+!i113 1
+R8
+R9
+vtb_lab1_g8_p1
+R0
+R1
+!i10b 1
+!s100 iSXKW92GZmBJlz@0RUDIN1
+R2
+I@MBW`_1gOP=5;Ib0?2GhE2
+R3
+S1
+R4
+w1682628589
+8D:/repos/Lojik/Lojik_Lab1/tb_lab1_g8_p2.sv
+FD:/repos/Lojik/Lojik_Lab1/tb_lab1_g8_p2.sv
+!i122 13
+Z14 L0 2 31
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/repos/Lojik/Lojik_Lab1/tb_lab1_g8_p2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/repos/Lojik/Lojik_Lab1/tb_lab1_g8_p2.sv|
+!i113 1
+R8
+R9
+vtb_lab1_g8_p2
+R0
+R10
+!i10b 1
+!s100 0g:i`JFk5fVcjm<:__?8m2
+R2
+I54EM[CcQUaoQOkgD?7Y`A3
+R3
+S1
+R4
+w1682628804
+8D:\repos\Lojik\Lojik_Lab1\tb_lab1_g8_p2.sv
+FD:\repos\Lojik\Lojik_Lab1\tb_lab1_g8_p2.sv
+!i122 19
+R14
+R6
+r1
+!s85 0
+31
+R11
+!s107 D:\repos\Lojik\Lojik_Lab1\tb_lab1_g8_p2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\repos\Lojik\Lojik_Lab1\tb_lab1_g8_p2.sv|
+!i113 1
+R8
+R9
+vtb_lab1_g8_p3
+R0
+R12
+!i10b 1
+!s100 HkiBgQ;D2`g8LiPMn6LZ71
+R2
+IUlmd82`Ti;dXh>H7Khfij3
+R3
+S1
+R4
+w1682633818
+8D:\repos\Lojik\Lojik_Lab1\tb_lab1_g8_p3.sv
+FD:\repos\Lojik\Lojik_Lab1\tb_lab1_g8_p3.sv
+!i122 36
+L0 3 33
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:\repos\Lojik\Lojik_Lab1\tb_lab1_g8_p3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:\repos\Lojik\Lojik_Lab1\tb_lab1_g8_p3.sv|
+!i113 1
+R8
+R9

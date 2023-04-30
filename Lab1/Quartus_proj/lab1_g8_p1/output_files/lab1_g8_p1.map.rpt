@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab1_g8_p1
-Fri Apr 28 11:47:51 2023
+Sun Apr 30 19:13:09 2023
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Apr 28 11:47:51 2023          ;
+; Analysis & Synthesis Status        ; Successful - Sun Apr 30 19:13:09 2023          ;
 ; Quartus Prime Version              ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                      ; lab1_g8_p1                                     ;
 ; Top-level Entity Name              ; lab1_g8_p1                                     ;
@@ -260,7 +260,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
-    Info: Processing started: Fri Apr 28 11:47:44 2023
+    Info: Processing started: Sun Apr 30 19:13:01 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab1_g8_p1 -c lab1_g8_p1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -275,9 +275,9 @@ Info (21057): Implemented 6 device resources after synthesis - the final resourc
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 1 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4762 megabytes
-    Info: Processing ended: Fri Apr 28 11:47:51 2023
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:09
+    Info: Peak virtual memory: 4766 megabytes
+    Info: Processing ended: Sun Apr 30 19:13:09 2023
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:10
 
 

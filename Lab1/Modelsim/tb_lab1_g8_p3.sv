@@ -30,6 +30,4 @@ initial begin
 
     $stop;
 end
-
-
 endmodule

@@ -2,7 +2,7 @@ module tb_lab1_g8_p1 ();
     logic g_tb, t_tb, u_tb, e_tb;
     logic y_tb;
 
-
+`timescale 1ps/1ps
 lab1_g8_p1 dut0(g_tb, t_tb, u_tb, e_tb, y_tb); 
 
 initial begin

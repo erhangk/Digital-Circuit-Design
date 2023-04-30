@@ -5,9 +5,9 @@ module tb_lab1_g8_p3 ();
     logic x_tb;
     logic y_tb;
 
+lab1_g8_p3 dut0(g_tb, t_tb, u_tb, e_tb, x_tb,y_tb); 
+//lab1_g8_p3 dut0(g_tb, t_tb, u_tb, e_tb, y_tb); 
 
-lab1_g8_p3 dut0(g_tb, t_tb, u_tb, e_tb, y_tb); 
-lab1_g8_p3 dut0(g_tb, t_tb, u_tb, e_tb, x_tb); 
 
 initial begin
 

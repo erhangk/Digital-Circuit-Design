@@ -19,7 +19,7 @@
 #
 # Quartus Prime
 # Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
-# Date created = 11:47:39  April 28, 2023
+# Date created = 17:16:40  April 30, 2023
 #
 # -------------------------------------------------------------------------- #
 #
@@ -41,7 +41,7 @@ set_global_assignment -name FAMILY "MAX 10"
 set_global_assignment -name DEVICE 10M08DAF484C8G
 set_global_assignment -name TOP_LEVEL_ENTITY lab1_g8_p1
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.1
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:47:39  APRIL 28, 2023"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:16:40  APRIL 30, 2023"
 set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.1 Lite Edition"
 set_global_assignment -name SYSTEMVERILOG_FILE ../../Modelsim/lab1_g8_p1.sv
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files

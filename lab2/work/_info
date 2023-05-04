@@ -1,0 +1,80 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/erhangk/Belgeler/Lojik/lab2
+T_opt
+!s110 1683218916
+V>i@_TOA?aJ37FZbdM_V;60
+04 13 4 work tb_lab2_g8_p1 fast 0
+=1-000ae431a4f1-6453e1e4-1147f-8934
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vlab2_g8_p1
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1683218910
+!i10b 1
+!s100 C1B=EUD7[6RZ>iUE]^8IJ2
+In=Rj7[13>=VKNkTjO_a[93
+S1
+Z4 d/home/erhangk/Belgeler/GitHub/Lojik/lab2
+w1683217799
+8/home/erhangk/Belgeler/Lojik/lab2/lab2_g8_p1.sv
+F/home/erhangk/Belgeler/Lojik/lab2/lab2_g8_p1.sv
+!i122 0
+L0 3 30
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z7 !s108 1683218910.000000
+!s107 /home/erhangk/Belgeler/Lojik/lab2/lab2_g8_p1.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Belgeler/Lojik/lab2/lab2_g8_p1.sv|
+!i113 0
+Z8 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_lab2_g8_p1
+R2
+R3
+!i10b 1
+!s100 gdaXJ@HdhSffF3XljE>Be2
+IYZl0[kKb>D2mPBXj:<8lO1
+S1
+R4
+w1683218569
+8/home/erhangk/Belgeler/Lojik/lab2/tb_lab2_g8_p1.sv
+F/home/erhangk/Belgeler/Lojik/lab2/tb_lab2_g8_p1.sv
+!i122 1
+L0 2 32
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/erhangk/Belgeler/Lojik/lab2/tb_lab2_g8_p1.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Belgeler/Lojik/lab2/tb_lab2_g8_p1.sv|
+!i113 0
+R8
+R1

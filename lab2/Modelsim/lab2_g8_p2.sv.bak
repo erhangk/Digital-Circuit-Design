@@ -1,0 +1,25 @@
+/* 
+A = x1+x3
+B= x3x0+x2'x0
+C=x2'x0+x2x1
+D=x1+x2
+E=x3'x1x0'+x2x1'
+F=x1x0'+x3'x1'x0+x2x0'
+G=x0x3+x1+x0'x3'
+*/
+`timescale 1ns/1ps
+module lab2_g8_p2(
+    input logic x0,x1,x2,x3,
+    output logic A,B,C,D,E,F,G
+);
+
+assign A = x1 | x3;
+assign B = x0&x3 | x0&~x2;
+assign C = x0&~x2 | x1&x2;
+assign D = x1 | x2;
+assign E = ~x0&x1&~x3 | ~x1&x2;
+assign F = ~x0&x1 | x0&~x1&~x3 | ~x0&x2;
+assign G = x0&x3 | x1 | ~x0&~x3;
+
+
+endmodule

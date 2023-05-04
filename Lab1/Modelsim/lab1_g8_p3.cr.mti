@@ -1,8 +1,0 @@
-D:/repos/Lojik/Lojik_Lab1/tb_lab1_g8_p3.sv {1 {vlog -work work -sv -stats=none {D:\repos\Lojik\Lojik_Lab1\tb_lab1_g8_p3.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module tb_lab1_g8_p3
-
-Top level modules:
-	tb_lab1_g8_p3
-
-} {} {}}

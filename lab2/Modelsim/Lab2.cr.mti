@@ -1,25 +1,25 @@
-/home/erhangk/Belgeler/GitHub/Lojik/lab2/Modelsim/lab2_g8_p1.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Belgeler/GitHub/Lojik/lab2/Modelsim/lab2_g8_p1.sv
+/home/erhangk/Documents/GitHub/Lojik/lab2/Modelsim/lab2_g8_p1.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab2/Modelsim/lab2_g8_p1.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling module lab2_g8_p1
 
 Top level modules:
 	lab2_g8_p1
 
-} {} {}} /home/erhangk/Belgeler/GitHub/Lojik/lab2/Modelsim/lab2_g8_p2.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Belgeler/GitHub/Lojik/lab2/Modelsim/lab2_g8_p2.sv
-Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
--- Compiling module lab2_g8_p2
-
-Top level modules:
-	lab2_g8_p2
-
-} {} {}} /home/erhangk/Belgeler/GitHub/Lojik/lab2/Modelsim/tb_lab2_g8_p1.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Belgeler/GitHub/Lojik/lab2/Modelsim/tb_lab2_g8_p1.sv
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab2/Modelsim/tb_lab2_g8_p1.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab2/Modelsim/tb_lab2_g8_p1.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling module tb_lab2_g8_p1
 
 Top level modules:
 	tb_lab2_g8_p1
 
-} {} {}} /home/erhangk/Belgeler/GitHub/Lojik/lab2/Modelsim/tb_lab2_g8_p2.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Belgeler/GitHub/Lojik/lab2/Modelsim/tb_lab2_g8_p2.sv
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab2/Modelsim/lab2_g8_p2.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab2/Modelsim/lab2_g8_p2.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module lab2_g8_p2
+
+Top level modules:
+	lab2_g8_p2
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab2/Modelsim/tb_lab2_g8_p2.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab2/Modelsim/tb_lab2_g8_p2.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling module tb_lab2_g8_p2
 

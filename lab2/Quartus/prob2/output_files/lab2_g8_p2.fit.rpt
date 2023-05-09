@@ -1,5 +1,5 @@
 Fitter report for lab2_g8_p2
-Fri May  5 20:24:20 2023
+Sun May  7 13:54:11 2023
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                      ;
 +------------------------------------+------------------------------------------------+
-; Fitter Status                      ; Successful - Fri May  5 20:24:20 2023          ;
+; Fitter Status                      ; Successful - Sun May  7 13:54:11 2023          ;
 ; Quartus Prime Version              ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                      ; lab2_g8_p2                                     ;
 ; Top-level Entity Name              ; lab2_g8_p2                                     ;
@@ -154,7 +154,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.2%      ;
+;     Processors 2-4         ;   0.4%      ;
 +----------------------------+-------------+
 
 
@@ -1244,10 +1244,10 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Info (144001): Generated suppressed messages file /home/erhangk/Documents/GitHub/Lojik/lab2/Quartus/prob2/output_files/lab2_g8_p2.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 1195 megabytes
-    Info: Processing ended: Fri May  5 20:24:20 2023
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Peak virtual memory: 1204 megabytes
+    Info: Processing ended: Sun May  7 13:54:11 2023
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 
 +----------------------------+

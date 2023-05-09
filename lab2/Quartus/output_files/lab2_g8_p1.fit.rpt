@@ -1,5 +1,5 @@
 Fitter report for lab2_g8_p1
-Sun May  7 17:30:10 2023
+Tue May  9 12:34:21 2023
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                      ;
 +------------------------------------+------------------------------------------------+
-; Fitter Status                      ; Successful - Sun May  7 17:30:10 2023          ;
+; Fitter Status                      ; Successful - Tue May  9 12:34:21 2023          ;
 ; Quartus Prime Version              ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                      ; lab2_g8_p1                                     ;
 ; Top-level Entity Name              ; lab2_g8_p1                                     ;
@@ -154,7 +154,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.1%      ;
+;     Processors 2-4         ;   0.2%      ;
 +----------------------------+-------------+
 
 
@@ -1196,9 +1196,9 @@ Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Info (144001): Generated suppressed messages file /home/erhangk/Documents/GitHub/Lojik/lab2/Quartus/output_files/lab2_g8_p1.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
     Info: Peak virtual memory: 1201 megabytes
-    Info: Processing ended: Sun May  7 17:30:10 2023
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:06
+    Info: Processing ended: Tue May  9 12:34:21 2023
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
 
 
 +----------------------------+

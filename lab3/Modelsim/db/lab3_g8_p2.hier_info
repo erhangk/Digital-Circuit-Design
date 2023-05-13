@@ -1,0 +1,430 @@
+|lab3_g8_p5
+a => a.IN2
+b => b.IN2
+c => c.IN2
+d => d.IN2
+F <= mux2:inst5.port3
+Y <= mux2:inst9.port3
+
+
+|lab3_g8_p5|decoder4x16:dec
+a0 => a0.IN4
+a1 => a1.IN4
+a2 => a2.IN1
+a3 => a3.IN1
+d[0] <= decoder:dec1.port3
+d[1] <= decoder:dec1.port4
+d[2] <= decoder:dec1.port5
+d[3] <= decoder:dec1.port6
+d[4] <= decoder:dec2.port3
+d[5] <= decoder:dec2.port4
+d[6] <= decoder:dec2.port5
+d[7] <= decoder:dec2.port6
+d[8] <= decoder:dec3.port3
+d[9] <= decoder:dec3.port4
+d[10] <= decoder:dec3.port5
+d[11] <= decoder:dec3.port6
+d[12] <= decoder:dec4.port3
+d[13] <= decoder:dec4.port4
+d[14] <= decoder:dec4.port5
+d[15] <= decoder:dec4.port6
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec0
+a0 => a0.IN1
+a1 => a1.IN1
+e => d0.IN1
+e => d1.IN1
+e => d2.IN1
+e => d3.IN1
+d0 <= d0.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+d2 <= d2.DB_MAX_OUTPUT_PORT_TYPE
+d3 <= d3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec0|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec0|NOTG:inst1
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec1
+a0 => a0.IN1
+a1 => a1.IN1
+e => d0.IN1
+e => d1.IN1
+e => d2.IN1
+e => d3.IN1
+d0 <= d0.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+d2 <= d2.DB_MAX_OUTPUT_PORT_TYPE
+d3 <= d3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec1|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec1|NOTG:inst1
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec2
+a0 => a0.IN1
+a1 => a1.IN1
+e => d0.IN1
+e => d1.IN1
+e => d2.IN1
+e => d3.IN1
+d0 <= d0.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+d2 <= d2.DB_MAX_OUTPUT_PORT_TYPE
+d3 <= d3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec2|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec2|NOTG:inst1
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec3
+a0 => a0.IN1
+a1 => a1.IN1
+e => d0.IN1
+e => d1.IN1
+e => d2.IN1
+e => d3.IN1
+d0 <= d0.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+d2 <= d2.DB_MAX_OUTPUT_PORT_TYPE
+d3 <= d3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec3|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec3|NOTG:inst1
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec4
+a0 => a0.IN1
+a1 => a1.IN1
+e => d0.IN1
+e => d1.IN1
+e => d2.IN1
+e => d3.IN1
+d0 <= d0.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+d2 <= d2.DB_MAX_OUTPUT_PORT_TYPE
+d3 <= d3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec4|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec|decoder:dec4|NOTG:inst1
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst0
+a => y1.IN1
+b => y2.IN0
+s => s.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst0|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst1
+a => y1.IN1
+b => y2.IN0
+s => s.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst1|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst2
+a => y1.IN1
+b => y2.IN0
+s => s.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst2|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst3
+a => y1.IN1
+b => y2.IN0
+s => s.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst3|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst4
+a => y1.IN1
+b => y2.IN0
+s => s.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst4|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst5
+a => y1.IN1
+b => y2.IN0
+s => s.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst5|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1
+a0 => a0.IN4
+a1 => a1.IN4
+a2 => a2.IN1
+a3 => a3.IN1
+d[0] <= decoder:dec1.port3
+d[1] <= decoder:dec1.port4
+d[2] <= decoder:dec1.port5
+d[3] <= decoder:dec1.port6
+d[4] <= decoder:dec2.port3
+d[5] <= decoder:dec2.port4
+d[6] <= decoder:dec2.port5
+d[7] <= decoder:dec2.port6
+d[8] <= decoder:dec3.port3
+d[9] <= decoder:dec3.port4
+d[10] <= decoder:dec3.port5
+d[11] <= decoder:dec3.port6
+d[12] <= decoder:dec4.port3
+d[13] <= decoder:dec4.port4
+d[14] <= decoder:dec4.port5
+d[15] <= decoder:dec4.port6
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec0
+a0 => a0.IN1
+a1 => a1.IN1
+e => d0.IN1
+e => d1.IN1
+e => d2.IN1
+e => d3.IN1
+d0 <= d0.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+d2 <= d2.DB_MAX_OUTPUT_PORT_TYPE
+d3 <= d3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec0|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec0|NOTG:inst1
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec1
+a0 => a0.IN1
+a1 => a1.IN1
+e => d0.IN1
+e => d1.IN1
+e => d2.IN1
+e => d3.IN1
+d0 <= d0.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+d2 <= d2.DB_MAX_OUTPUT_PORT_TYPE
+d3 <= d3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec1|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec1|NOTG:inst1
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec2
+a0 => a0.IN1
+a1 => a1.IN1
+e => d0.IN1
+e => d1.IN1
+e => d2.IN1
+e => d3.IN1
+d0 <= d0.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+d2 <= d2.DB_MAX_OUTPUT_PORT_TYPE
+d3 <= d3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec2|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec2|NOTG:inst1
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec3
+a0 => a0.IN1
+a1 => a1.IN1
+e => d0.IN1
+e => d1.IN1
+e => d2.IN1
+e => d3.IN1
+d0 <= d0.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+d2 <= d2.DB_MAX_OUTPUT_PORT_TYPE
+d3 <= d3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec3|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec3|NOTG:inst1
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec4
+a0 => a0.IN1
+a1 => a1.IN1
+e => d0.IN1
+e => d1.IN1
+e => d2.IN1
+e => d3.IN1
+d0 <= d0.DB_MAX_OUTPUT_PORT_TYPE
+d1 <= d1.DB_MAX_OUTPUT_PORT_TYPE
+d2 <= d2.DB_MAX_OUTPUT_PORT_TYPE
+d3 <= d3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec4|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|decoder4x16:dec1|decoder:dec4|NOTG:inst1
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|NOTG:notinst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|NOTG:notinst1
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|NOTG:notinst2
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|NOTG:notinst3
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|NOTG:notinst4
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst6
+a => y1.IN1
+b => y2.IN0
+s => s.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst6|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst7
+a => y1.IN1
+b => y2.IN0
+s => s.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst7|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst8
+a => y1.IN1
+b => y2.IN0
+s => s.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst8|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst9
+a => y1.IN1
+b => y2.IN0
+s => s.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab3_g8_p5|mux2:inst9|NOTG:inst0
+a => not_a.DATAIN
+not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+

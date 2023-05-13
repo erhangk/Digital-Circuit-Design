@@ -4,8 +4,8 @@ module lab3_g8_p3(
     output logic d0,d1,d2,d3
 );
 logic na0,na1;
-NOT inst0(a0,na0);
-NOT inst1(a1,na1);
+NOTG inst0(a0,na0);
+NOTG inst1(a1,na1);
 
 assign d0 = na1 & na0 & e;
 assign d1 = na1 & a0 & e;
@@ -20,8 +20,8 @@ module decoder(
     output logic d0,d1,d2,d3
 );
 logic na0,na1;
-NOT inst0(a0,na0);
-NOT inst1(a1,na1);
+NOTG inst0(a0,na0);
+NOTG inst1(a1,na1);
 
 assign d0 = na1 & na0 & e;
 assign d1 = na1 & a0 & e;

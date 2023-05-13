@@ -1,8 +1,0 @@
-|lab3_g8_p1
-Y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
-B => inst1.IN0
-s => inst1.IN1
-s => inst3.IN0
-A => inst.IN1
-
-

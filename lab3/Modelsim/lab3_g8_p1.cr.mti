@@ -19,6 +19,13 @@ Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 Top level modules:
 	tb_lab3_g8_p2_3
 
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux16.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux16.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module mux16
+
+Top level modules:
+	mux16
+
 } {} {}} /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 -- Compiling module lab3_g8_p2
@@ -43,6 +50,13 @@ Top level modules:
 	lab3_g8_p4
 	decoder3x8
 	decoder4x16
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux4.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux4.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module mux4
+
+Top level modules:
+	mux4
 
 } {} {}} /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_2.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_2.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
@@ -75,14 +89,12 @@ Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 Top level modules:
 	tb_lab3_g8_p2_4
 
-} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2_1.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2_1.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
--- Compiling module mux4
--- Compiling module mux8
--- Compiling module mux16
+-- Compiling module lab3_g8_p2_1
 
 Top level modules:
-	mux16
+	lab3_g8_p2_1
 
 } {} {}} /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p3.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p3.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
@@ -92,6 +104,22 @@ Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
 Top level modules:
 	lab3_g8_p3
 	decoder
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module mux4
+-- Compiling module mux8
+-- Compiling module mux16
+
+Top level modules:
+	mux16
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux8.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux8.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module mux8
+
+Top level modules:
+	mux8
 
 } {} {}} /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p5.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p5.sv
 Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021

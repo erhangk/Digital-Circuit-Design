@@ -32,6 +32,7 @@ R0
 R0
 R0
 R0
+R0
 !s11f vlog 2021.2 2021.04, Apr 14 2021
 R0
 R0
@@ -49,16 +50,15 @@ R0
 cModel Technology
 Z1 d/home/erhangk/Documents/GitHub/Lojik/lab2/Modelsim
 T_opt
-!s110 1684074872
-V5nXXoj]8lcMDV3_<hf^Bl2
+!s110 1684080267
+VJ6TK?o8oH?N<hMSdEA3V=0
 04 15 4 work tb_lab3_g8_p2_4 fast 0
-=1-000ae431a4f1-6460f177-e6f68-db9
+=1-000ae431a4f1-6461068b-82605-393d
 !s124 OEM10U38 
 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;2021.2;73
-R1
 T_opt1
 !s110 1684074859
 VQic4X7jXH`4ChHD`OPEiU2
@@ -83,7 +83,7 @@ R3
 R1
 vdecoder
 Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z6 !s110 1684077133
+Z6 !s110 1684079571
 !i10b 1
 !s100 kDUEGfM=oUOdLBo_lNk6C1
 I9FcIRGzc:U_2TTUn_G6l92
@@ -92,14 +92,14 @@ Z7 d/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim
 Z8 w1683893641
 Z9 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p3.sv
 Z10 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p3.sv
-!i122 512
+!i122 527
 L0 18 15
 Z11 VDg1SIo80bB@j0V0VzS_@n1
 Z12 OL;L;2021.2;73
 r1
 !s85 0
 31
-Z13 !s108 1684077133.000000
+Z13 !s108 1684079571.000000
 Z14 !s107 /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p3.sv|
 Z15 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p3.sv|
 !i113 0
@@ -116,7 +116,7 @@ R7
 Z17 w1684012091
 Z18 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p4.sv
 Z19 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p4.sv
-!i122 513
+!i122 528
 L0 25 15
 R11
 R12
@@ -140,7 +140,7 @@ R7
 R17
 R18
 R19
-!i122 513
+!i122 528
 L0 41 14
 R11
 R12
@@ -164,7 +164,7 @@ R7
 Z22 w1684008913
 Z23 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p1.sv
 Z24 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p1.sv
-!i122 509
+!i122 524
 L0 23 11
 R11
 R12
@@ -188,7 +188,7 @@ R7
 w1684076351
 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2.sv
 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2.sv
-!i122 511
+!i122 526
 L0 3 18
 R11
 R12
@@ -203,23 +203,23 @@ R16
 R2
 vlab3_g8_p2_1
 R5
-R6
+Z27 !s110 1684079572
 !i10b 1
-!s100 IVgRUzYo4RWk29ETi>VAO0
-IGj>THk[74i>S`m_^iV20n2
+!s100 Mf?d4d?:2?A>T6Qoe>g`c3
+IZZTYGFOz=W;ILifQbST?P1
 S1
 R7
-w1684077130
+w1684077924
 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2_1.sv
 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2_1.sv
-!i122 523
-L0 3 12
+!i122 538
+L0 3 24
 R11
 R12
 r1
 !s85 0
 31
-R13
+Z28 !s108 1684079572.000000
 !s107 /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2_1.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2_1.sv|
 !i113 0
@@ -236,7 +236,7 @@ R7
 R8
 R9
 R10
-!i122 512
+!i122 527
 L0 2 15
 R11
 R12
@@ -260,7 +260,7 @@ R7
 R17
 R18
 R19
-!i122 513
+!i122 528
 L0 1 23
 R11
 R12
@@ -284,7 +284,7 @@ R7
 w1684012371
 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p5.sv
 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p5.sv
-!i122 514
+!i122 529
 L0 1 35
 R11
 R12
@@ -299,25 +299,25 @@ R16
 R2
 vmux16
 R5
-R6
+R27
 !i10b 1
-!s100 `O9UmKJoBP9<EaSlaHhn?0
-In?dP?gOSZQDU^QV_SWLf<2
+!s100 T=eV^F]8L_AAcNaeB=2K22
+I?7bif`e=d3YV37Dchh[7n1
 S1
 R7
-Z27 w1684076354
-Z28 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv
-Z29 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv
-!i122 522
-L0 39 12
+w1684079540
+8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux16.sv
+F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux16.sv
+!i122 541
+Z29 L0 1 12
 R11
 R12
 r1
 !s85 0
 31
-R13
-Z30 !s107 /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv|
-Z31 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv|
+R28
+!s107 /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux16.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux16.sv|
 !i113 0
 R16
 R2
@@ -332,7 +332,7 @@ R7
 R22
 R23
 R24
-!i122 509
+!i122 524
 L0 11 11
 R11
 R12
@@ -347,49 +347,49 @@ R16
 R2
 vmux4
 R5
-R6
+R27
 !i10b 1
-!s100 ]Ge`KSdL9EgV9SA58f8Qj1
-I0R6ClO8ML^1ZDd5T3PQ5P2
+!s100 F5VB@OC7OmVGJXL:g9F5A3
+ITM^nWz[[=IDL:z7S2lagD0
 S1
 R7
-R27
-R28
+w1684079531
+8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux4.sv
+F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux4.sv
+!i122 539
 R29
-!i122 522
-L0 10 12
 R11
 R12
 r1
 !s85 0
 31
-R13
-R30
-R31
+R28
+!s107 /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux4.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux4.sv|
 !i113 0
 R16
 R2
 vmux8
 R5
-R6
+R27
 !i10b 1
-!s100 IUe4Ao[W8^0Z]WfMGkjf]3
-IFZkh:4KzVNhQ_zihKU75V1
+!s100 6o=_LD]6oWmL`d:2;@>YX1
+I8;Y3B?B8O0A;0=]lVI?jR2
 S1
 R7
-R27
-R28
+w1684079529
+8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux8.sv
+F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux8.sv
+!i122 540
 R29
-!i122 522
-L0 25 12
 R11
 R12
 r1
 !s85 0
 31
-R13
-R30
-R31
+R28
+!s107 /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux8.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux8.sv|
 !i113 0
 R16
 R2
@@ -404,7 +404,7 @@ R7
 R22
 R23
 R24
-!i122 509
+!i122 524
 L0 3 6
 R11
 R12
@@ -429,7 +429,7 @@ R7
 w1683823305
 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p1.sv
 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p1.sv
-!i122 510
+!i122 525
 L0 2 20
 R11
 R12
@@ -444,7 +444,7 @@ R16
 R2
 vtb_lab3_g8_p2_1
 R5
-R6
+R27
 !i10b 1
 !s100 EFR<iYLCi_iIn2ZKR[ZGj3
 IGOU?k9c]R00=A@dJYZPeK1
@@ -453,14 +453,14 @@ R7
 w1683819478
 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_1.sv
 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_1.sv
-!i122 518
+!i122 533
 L0 2 17
 R11
 R12
 r1
 !s85 0
 31
-R13
+R28
 !s107 /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_1.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_1.sv|
 !i113 0
@@ -468,7 +468,7 @@ R16
 R2
 vtb_lab3_g8_p2_2
 R5
-R6
+R27
 !i10b 1
 !s100 iD=PN>OAZiEWmo?MGi6242
 IX80Y[IE_A<Ze=kVW8PLzf0
@@ -477,14 +477,14 @@ R7
 w1683823623
 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_2.sv
 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_2.sv
-!i122 519
+!i122 534
 L0 2 13
 R11
 R12
 r1
 !s85 0
 31
-R13
+R28
 !s107 /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_2.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_2.sv|
 !i113 0
@@ -492,7 +492,7 @@ R16
 R2
 vtb_lab3_g8_p2_3
 R5
-R6
+R27
 !i10b 1
 !s100 C7`?Fj_IeKCea^YXWFX]S2
 IDET=S>f?=^PD_4zKlNJ^^3
@@ -501,14 +501,14 @@ R7
 w1683823608
 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_3.sv
 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_3.sv
-!i122 520
+!i122 535
 L0 2 12
 R11
 R12
 r1
 !s85 0
 31
-R13
+R28
 !s107 /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_3.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_3.sv|
 !i113 0
@@ -516,7 +516,7 @@ R16
 R2
 vtb_lab3_g8_p2_4
 R5
-R6
+R27
 !i10b 1
 !s100 Q@0njOeDl3<XX@]W9=BDh2
 I58VP9C@KXC=5`6UKjZ?l:1
@@ -525,14 +525,14 @@ R7
 w1683827242
 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_4.sv
 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_4.sv
-!i122 521
+!i122 536
 L0 2 32
 R11
 R12
 r1
 !s85 0
 31
-R13
+R28
 !s107 /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_4.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_4.sv|
 !i113 0
@@ -540,7 +540,7 @@ R16
 R2
 vtb_lab3_g8_p3
 R5
-R6
+R27
 !i10b 1
 !s100 o7UQn4Rc5W64TjNcRWN5m3
 IOcABEbmU:]]KfMKU22mm22
@@ -549,7 +549,7 @@ R7
 w1683835808
 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p3.sv
 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p3.sv
-!i122 515
+!i122 530
 L0 2 16
 R11
 R12
@@ -564,7 +564,7 @@ R16
 R2
 vtb_lab3_g8_p4
 R5
-R6
+R27
 !i10b 1
 !s100 7lY77RU55j`0ihX<@2T8P2
 IZ1J?kQ__TTEhlzRZkKAoO2
@@ -573,14 +573,14 @@ R7
 w1683835138
 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p4.sv
 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p4.sv
-!i122 516
-Z32 L0 2 29
+!i122 531
+Z30 L0 2 29
 R11
 R12
 r1
 !s85 0
 31
-R13
+R28
 !s107 /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p4.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p4.sv|
 !i113 0
@@ -588,7 +588,7 @@ R16
 R2
 vtb_lab3_g8_p5
 R5
-R6
+R27
 !i10b 1
 !s100 1L?3;:0I[Ukf^1^Vg;2393
 I<SRIg85aIHTN>kRl`VGEl3
@@ -597,14 +597,14 @@ R7
 w1683841835
 8/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p5.sv
 F/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p5.sv
-!i122 517
-R32
+!i122 532
+R30
 R11
 R12
 r1
 !s85 0
 31
-R13
+R28
 !s107 /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p5.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p5.sv|
 !i113 0

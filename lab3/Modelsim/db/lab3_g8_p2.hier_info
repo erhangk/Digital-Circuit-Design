@@ -1,170 +1,4 @@
-|lab3_g8_p2_1
-I[0] => I[0].IN3
-I[1] => I[1].IN3
-I[2] => I[2].IN3
-I[3] => I[3].IN3
-I[4] => I[4].IN2
-I[5] => I[5].IN2
-I[6] => I[6].IN2
-I[7] => I[7].IN2
-I[8] => I[8].IN1
-I[9] => I[9].IN1
-I[10] => I[10].IN1
-I[11] => I[11].IN1
-I[12] => I[12].IN1
-I[13] => I[13].IN1
-I[14] => I[14].IN1
-I[15] => I[15].IN1
-s[0] => s[0].IN6
-s[1] => s[1].IN5
-s[2] => s[2].IN3
-s[3] => s[3].IN1
-mux4out <= mux2:mux2_3.port3
-mux8out <= mux2:mux4_3.port3
-mux16out <= mux2:mux8_3.port3
-
-
-|lab3_g8_p2_1|mux2:mux2_1
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux2:mux2_1|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux2:mux2_2
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux2:mux2_2|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux2:mux2_3
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux2:mux2_3|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux4:mux4_1
-I[0] => I[0].IN1
-I[1] => I[1].IN1
-I[2] => I[2].IN1
-I[3] => I[3].IN1
-s[0] => s[0].IN2
-s[1] => s[1].IN1
-y <= mux2:mux2_3.port3
-
-
-|lab3_g8_p2_1|mux4:mux4_1|mux2:mux2_1
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux4:mux4_1|mux2:mux2_1|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux4:mux4_1|mux2:mux2_2
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux4:mux4_1|mux2:mux2_2|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux4:mux4_1|mux2:mux2_3
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux4:mux4_1|mux2:mux2_3|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux4:mux4_2
-I[0] => I[0].IN1
-I[1] => I[1].IN1
-I[2] => I[2].IN1
-I[3] => I[3].IN1
-s[0] => s[0].IN2
-s[1] => s[1].IN1
-y <= mux2:mux2_3.port3
-
-
-|lab3_g8_p2_1|mux4:mux4_2|mux2:mux2_1
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux4:mux4_2|mux2:mux2_1|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux4:mux4_2|mux2:mux2_2
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux4:mux4_2|mux2:mux2_2|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux4:mux4_2|mux2:mux2_3
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux4:mux4_2|mux2:mux2_3|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux2:mux4_3
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux2:mux4_3|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_1
+|mux8
 I[0] => I[0].IN1
 I[1] => I[1].IN1
 I[2] => I[2].IN1
@@ -179,7 +13,7 @@ s[2] => s[2].IN1
 y <= mux2:mux4_3.port3
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_1
+|mux8|mux4:mux4_1
 I[0] => I[0].IN1
 I[1] => I[1].IN1
 I[2] => I[2].IN1
@@ -189,43 +23,43 @@ s[1] => s[1].IN1
 y <= mux2:mux2_3.port3
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_1|mux2:mux2_1
+|mux8|mux4:mux4_1|mux2:mux2_1
 a => y1.IN1
 b => y2.IN0
 s => s.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_1|mux2:mux2_1|NOTG:inst0
+|mux8|mux4:mux4_1|mux2:mux2_1|NOTG:inst0
 a => not_a.DATAIN
 not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_1|mux2:mux2_2
+|mux8|mux4:mux4_1|mux2:mux2_2
 a => y1.IN1
 b => y2.IN0
 s => s.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_1|mux2:mux2_2|NOTG:inst0
+|mux8|mux4:mux4_1|mux2:mux2_2|NOTG:inst0
 a => not_a.DATAIN
 not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_1|mux2:mux2_3
+|mux8|mux4:mux4_1|mux2:mux2_3
 a => y1.IN1
 b => y2.IN0
 s => s.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_1|mux2:mux2_3|NOTG:inst0
+|mux8|mux4:mux4_1|mux2:mux2_3|NOTG:inst0
 a => not_a.DATAIN
 not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_2
+|mux8|mux4:mux4_2
 I[0] => I[0].IN1
 I[1] => I[1].IN1
 I[2] => I[2].IN1
@@ -235,181 +69,50 @@ s[1] => s[1].IN1
 y <= mux2:mux2_3.port3
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_2|mux2:mux2_1
+|mux8|mux4:mux4_2|mux2:mux2_1
 a => y1.IN1
 b => y2.IN0
 s => s.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_2|mux2:mux2_1|NOTG:inst0
+|mux8|mux4:mux4_2|mux2:mux2_1|NOTG:inst0
 a => not_a.DATAIN
 not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_2|mux2:mux2_2
+|mux8|mux4:mux4_2|mux2:mux2_2
 a => y1.IN1
 b => y2.IN0
 s => s.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_2|mux2:mux2_2|NOTG:inst0
+|mux8|mux4:mux4_2|mux2:mux2_2|NOTG:inst0
 a => not_a.DATAIN
 not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_2|mux2:mux2_3
+|mux8|mux4:mux4_2|mux2:mux2_3
 a => y1.IN1
 b => y2.IN0
 s => s.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux4:mux4_2|mux2:mux2_3|NOTG:inst0
+|mux8|mux4:mux4_2|mux2:mux2_3|NOTG:inst0
 a => not_a.DATAIN
 not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux2:mux4_3
+|mux8|mux2:mux4_3
 a => y1.IN1
 b => y2.IN0
 s => s.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|lab3_g8_p2_1|mux8:mux8_1|mux2:mux4_3|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2
-I[0] => I[0].IN1
-I[1] => I[1].IN1
-I[2] => I[2].IN1
-I[3] => I[3].IN1
-I[4] => I[4].IN1
-I[5] => I[5].IN1
-I[6] => I[6].IN1
-I[7] => I[7].IN1
-s[0] => s[0].IN2
-s[1] => s[1].IN2
-s[2] => s[2].IN1
-y <= mux2:mux4_3.port3
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_1
-I[0] => I[0].IN1
-I[1] => I[1].IN1
-I[2] => I[2].IN1
-I[3] => I[3].IN1
-s[0] => s[0].IN2
-s[1] => s[1].IN1
-y <= mux2:mux2_3.port3
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_1|mux2:mux2_1
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_1|mux2:mux2_1|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_1|mux2:mux2_2
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_1|mux2:mux2_2|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_1|mux2:mux2_3
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_1|mux2:mux2_3|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_2
-I[0] => I[0].IN1
-I[1] => I[1].IN1
-I[2] => I[2].IN1
-I[3] => I[3].IN1
-s[0] => s[0].IN2
-s[1] => s[1].IN1
-y <= mux2:mux2_3.port3
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_2|mux2:mux2_1
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_2|mux2:mux2_1|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_2|mux2:mux2_2
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_2|mux2:mux2_2|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_2|mux2:mux2_3
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_2|mux2:mux2_3|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux2:mux4_3
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux8:mux8_2|mux2:mux4_3|NOTG:inst0
-a => not_a.DATAIN
-not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux2:mux8_3
-a => y1.IN1
-b => y2.IN0
-s => s.IN1
-y <= y.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|lab3_g8_p2_1|mux2:mux8_3|NOTG:inst0
+|mux8|mux2:mux4_3|NOTG:inst0
 a => not_a.DATAIN
 not_a <= a.DB_MAX_OUTPUT_PORT_TYPE
 

@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 module mux4(
 
 input logic [3:0] I, //4 input + 2 select line

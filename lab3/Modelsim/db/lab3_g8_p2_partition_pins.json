@@ -4,27 +4,95 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "F",
+					"name" : "mux4out",
 					"strict" : false
 				},
 				{
-					"name" : "Y",
+					"name" : "mux8out",
 					"strict" : false
 				},
 				{
-					"name" : "a",
+					"name" : "mux16out",
 					"strict" : false
 				},
 				{
-					"name" : "c",
+					"name" : "I[2]",
 					"strict" : false
 				},
 				{
-					"name" : "d",
+					"name" : "s[1]",
 					"strict" : false
 				},
 				{
-					"name" : "b",
+					"name" : "I[1]",
+					"strict" : false
+				},
+				{
+					"name" : "s[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I[0]",
+					"strict" : false
+				},
+				{
+					"name" : "I[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I[5]",
+					"strict" : false
+				},
+				{
+					"name" : "I[6]",
+					"strict" : false
+				},
+				{
+					"name" : "I[4]",
+					"strict" : false
+				},
+				{
+					"name" : "I[7]",
+					"strict" : false
+				},
+				{
+					"name" : "s[2]",
+					"strict" : false
+				},
+				{
+					"name" : "s[3]",
+					"strict" : false
+				},
+				{
+					"name" : "I[13]",
+					"strict" : false
+				},
+				{
+					"name" : "I[14]",
+					"strict" : false
+				},
+				{
+					"name" : "I[12]",
+					"strict" : false
+				},
+				{
+					"name" : "I[15]",
+					"strict" : false
+				},
+				{
+					"name" : "I[10]",
+					"strict" : false
+				},
+				{
+					"name" : "I[9]",
+					"strict" : false
+				},
+				{
+					"name" : "I[8]",
+					"strict" : false
+				},
+				{
+					"name" : "I[11]",
 					"strict" : false
 				}
 			]

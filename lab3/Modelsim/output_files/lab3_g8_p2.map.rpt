@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab3_g8_p2
-Sun May 14 00:12:58 2023
+Sun May 14 18:25:33 2023
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -14,14 +14,9 @@ Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Port Connectivity Checks: "mux2:inst6"
- 10. Port Connectivity Checks: "decoder4x16:dec1"
- 11. Port Connectivity Checks: "mux2:inst0"
- 12. Port Connectivity Checks: "decoder4x16:dec|decoder:dec0"
- 13. Port Connectivity Checks: "decoder4x16:dec"
- 14. Post-Synthesis Netlist Statistics for Top Partition
- 15. Elapsed Time Per Partition
- 16. Analysis & Synthesis Messages
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -48,16 +43,16 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun May 14 00:12:58 2023          ;
+; Analysis & Synthesis Status        ; Successful - Sun May 14 18:25:33 2023          ;
 ; Quartus Prime Version              ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                      ; lab3_g8_p2                                     ;
-; Top-level Entity Name              ; lab3_g8_p5                                     ;
+; Top-level Entity Name              ; lab3_g8_p2_1                                   ;
 ; Family                             ; MAX 10                                         ;
-; Total logic elements               ; 2                                              ;
-;     Total combinational functions  ; 2                                              ;
+; Total logic elements               ; 11                                             ;
+;     Total combinational functions  ; 11                                             ;
 ;     Dedicated logic registers      ; 0                                              ;
 ; Total registers                    ; 0                                              ;
-; Total pins                         ; 6                                              ;
+; Total pins                         ; 23                                             ;
 ; Total virtual pins                 ; 0                                              ;
 ; Total memory bits                  ; 0                                              ;
 ; Embedded Multiplier 9-bit elements ; 0                                              ;
@@ -73,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                           ; 10M08DAF484C8G     ;                    ;
-; Top-level entity name                                            ; lab3_g8_p5         ; lab3_g8_p2         ;
+; Top-level entity name                                            ; lab3_g8_p2_1       ; lab3_g8_p2         ;
 ; Family name                                                      ; MAX 10             ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
@@ -169,59 +164,64 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                     ; Library ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
-; lab3_g8_p5.sv                    ; yes             ; User SystemVerilog HDL File  ; /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p5.sv ;         ;
-; lab3_g8_p4.sv                    ; yes             ; User SystemVerilog HDL File  ; /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p4.sv ;         ;
-; lab3_g8_p3.sv                    ; yes             ; User SystemVerilog HDL File  ; /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p3.sv ;         ;
-; lab3_g8_p1.sv                    ; yes             ; User SystemVerilog HDL File  ; /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p1.sv ;         ;
-+----------------------------------+-----------------+------------------------------+------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                           ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                       ; Library ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------+---------+
+; lab3_g8_p2_1.sv                  ; yes             ; User SystemVerilog HDL File  ; /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2_1.sv ;         ;
+; mux.sv                           ; yes             ; User SystemVerilog HDL File  ; /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv          ;         ;
+; lab3_g8_p1.sv                    ; yes             ; User SystemVerilog HDL File  ; /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p1.sv   ;         ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------+---------+
 
 
-+-------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary           ;
-+---------------------------------------------+---------+
-; Resource                                    ; Usage   ;
-+---------------------------------------------+---------+
-; Estimated Total logic elements              ; 2       ;
-;                                             ;         ;
-; Total combinational functions               ; 2       ;
-; Logic element usage by number of LUT inputs ;         ;
-;     -- 4 input functions                    ; 2       ;
-;     -- 3 input functions                    ; 0       ;
-;     -- <=2 input functions                  ; 0       ;
-;                                             ;         ;
-; Logic elements by mode                      ;         ;
-;     -- normal mode                          ; 2       ;
-;     -- arithmetic mode                      ; 0       ;
-;                                             ;         ;
-; Total registers                             ; 0       ;
-;     -- Dedicated logic registers            ; 0       ;
-;     -- I/O registers                        ; 0       ;
-;                                             ;         ;
-; I/O pins                                    ; 6       ;
-;                                             ;         ;
-; Embedded Multiplier 9-bit elements          ; 0       ;
-;                                             ;         ;
-; Maximum fan-out node                        ; a~input ;
-; Maximum fan-out                             ; 2       ;
-; Total fan-out                               ; 16      ;
-; Average fan-out                             ; 1.14    ;
-+---------------------------------------------+---------+
++----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary              ;
++---------------------------------------------+------------+
+; Resource                                    ; Usage      ;
++---------------------------------------------+------------+
+; Estimated Total logic elements              ; 11         ;
+;                                             ;            ;
+; Total combinational functions               ; 11         ;
+; Logic element usage by number of LUT inputs ;            ;
+;     -- 4 input functions                    ; 9          ;
+;     -- 3 input functions                    ; 2          ;
+;     -- <=2 input functions                  ; 0          ;
+;                                             ;            ;
+; Logic elements by mode                      ;            ;
+;     -- normal mode                          ; 11         ;
+;     -- arithmetic mode                      ; 0          ;
+;                                             ;            ;
+; Total registers                             ; 0          ;
+;     -- Dedicated logic registers            ; 0          ;
+;     -- I/O registers                        ; 0          ;
+;                                             ;            ;
+; I/O pins                                    ; 23         ;
+;                                             ;            ;
+; Embedded Multiplier 9-bit elements          ; 0          ;
+;                                             ;            ;
+; Maximum fan-out node                        ; s[1]~input ;
+; Maximum fan-out                             ; 6          ;
+; Total fan-out                               ; 68         ;
+; Average fan-out                             ; 1.19       ;
++---------------------------------------------+------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                   ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name    ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------+-------------+--------------+
-; |lab3_g8_p5                ; 2 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 6    ; 0            ; 0          ; |lab3_g8_p5            ; lab3_g8_p5  ; work         ;
-;    |mux2:inst5|            ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab3_g8_p5|mux2:inst5 ; mux2        ; work         ;
-;    |mux2:inst9|            ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab3_g8_p5|mux2:inst9 ; mux2        ; work         ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------+-------------+--------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                               ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------+--------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                               ; Entity Name  ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------+--------------+--------------+
+; |lab3_g8_p2_1              ; 11 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 23   ; 0            ; 0          ; |lab3_g8_p2_1                                     ; lab3_g8_p2_1 ; work         ;
+;    |mux2:mux2_3|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab3_g8_p2_1|mux2:mux2_3                         ; mux2         ; work         ;
+;    |mux2:mux4_3|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab3_g8_p2_1|mux2:mux4_3                         ; mux2         ; work         ;
+;    |mux2:mux8_3|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab3_g8_p2_1|mux2:mux8_3                         ; mux2         ; work         ;
+;    |mux4:mux4_2|           ; 2 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab3_g8_p2_1|mux4:mux4_2                         ; mux4         ; work         ;
+;       |mux2:mux2_3|        ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab3_g8_p2_1|mux4:mux4_2|mux2:mux2_3             ; mux2         ; work         ;
+;    |mux8:mux8_2|           ; 4 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab3_g8_p2_1|mux8:mux8_2                         ; mux8         ; work         ;
+;       |mux4:mux4_1|        ; 4 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_1             ; mux4         ; work         ;
+;          |mux2:mux2_3|     ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |lab3_g8_p2_1|mux8:mux8_2|mux4:mux4_1|mux2:mux2_3 ; mux2         ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------+--------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -240,70 +240,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+----------------------------------------+
-; Port Connectivity Checks: "mux2:inst6" ;
-+------+-------+----------+--------------+
-; Port ; Type  ; Severity ; Details      ;
-+------+-------+----------+--------------+
-; a    ; Input ; Info     ; Stuck at GND ;
-+------+-------+----------+--------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "decoder4x16:dec1"                                                                       ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-; d[15..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; d[1..0]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; d[6]     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+----------------------------------------+
-; Port Connectivity Checks: "mux2:inst0" ;
-+------+-------+----------+--------------+
-; Port ; Type  ; Severity ; Details      ;
-+------+-------+----------+--------------+
-; b    ; Input ; Info     ; Stuck at VCC ;
-+------+-------+----------+--------------+
-
-
-+----------------------------------------------------------+
-; Port Connectivity Checks: "decoder4x16:dec|decoder:dec0" ;
-+------+-------+----------+--------------------------------+
-; Port ; Type  ; Severity ; Details                        ;
-+------+-------+----------+--------------------------------+
-; e    ; Input ; Info     ; Stuck at VCC                   ;
-+------+-------+----------+--------------------------------+
-
-
-+--------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "decoder4x16:dec"                                                                        ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-; d[10..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; d[6..4]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; d[14]    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; d[2]     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; d[0]     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-
-
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 6                           ;
-; cycloneiii_lcell_comb ; 3                           ;
-;     normal            ; 3                           ;
-;         1 data inputs ; 1                           ;
-;         4 data inputs ; 2                           ;
+; boundary_port         ; 23                          ;
+; cycloneiii_lcell_comb ; 11                          ;
+;     normal            ; 11                          ;
+;         3 data inputs ; 2                           ;
+;         4 data inputs ; 9                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.86                        ;
+; Max LUT depth         ; 4.00                        ;
+; Average LUT depth     ; 3.61                        ;
 +-----------------------+-----------------------------+
 
 
@@ -312,7 +261,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -322,14 +271,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
-    Info: Processing started: Sun May 14 00:12:52 2023
+    Info: Processing started: Sun May 14 18:25:26 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab3_g8_p2 -c lab3_g8_p2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file lab3_g8_p2_1.sv
+    Info (12023): Found entity 1: lab3_g8_p2_1 File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2_1.sv Line: 3
 Info (12021): Found 3 design units, including 3 entities, in source file mux.sv
-    Info (12023): Found entity 1: mux4 File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv Line: 1
-    Info (12023): Found entity 2: mux8 File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv Line: 16
-    Info (12023): Found entity 3: mux16 File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv Line: 30
+    Info (12023): Found entity 1: mux4 File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv Line: 10
+    Info (12023): Found entity 2: mux8 File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv Line: 25
+    Info (12023): Found entity 3: mux16 File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/mux.sv Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file tb_lab3_g8_p2_4.sv
     Info (12023): Found entity 1: tb_lab3_g8_p2_4 File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/tb_lab3_g8_p2_4.sv Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file tb_lab3_g8_p2_3.sv
@@ -377,22 +328,22 @@ Warning (10236): Verilog HDL Implicit Net warning at lab3_g8_p1.sv(18): created 
 Warning (10236): Verilog HDL Implicit Net warning at lab3_g8_p1.sv(28): created implicit net for "ns" File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p1.sv Line: 28
 Warning (10236): Verilog HDL Implicit Net warning at lab3_g8_p1.sv(29): created implicit net for "y1" File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p1.sv Line: 29
 Warning (10236): Verilog HDL Implicit Net warning at lab3_g8_p1.sv(30): created implicit net for "y2" File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p1.sv Line: 30
-Info (12127): Elaborating entity "lab3_g8_p5" for the top level hierarchy
-Info (12128): Elaborating entity "decoder4x16" for hierarchy "decoder4x16:dec" File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p5.sv Line: 10
-Info (12128): Elaborating entity "decoder" for hierarchy "decoder4x16:dec|decoder:dec0" File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p4.sv Line: 49
-Info (12128): Elaborating entity "NOTG" for hierarchy "decoder4x16:dec|decoder:dec0|NOTG:inst0" File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p3.sv Line: 23
-Info (12128): Elaborating entity "mux2" for hierarchy "mux2:inst0" File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p5.sv Line: 12
+Info (12127): Elaborating entity "lab3_g8_p2_1" for the top level hierarchy
+Info (12128): Elaborating entity "mux2" for hierarchy "mux2:mux2_1" File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2_1.sv Line: 11
+Info (12128): Elaborating entity "NOTG" for hierarchy "mux2:mux2_1|NOTG:inst0" File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p1.sv Line: 16
+Info (12128): Elaborating entity "mux4" for hierarchy "mux4:mux4_1" File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2_1.sv Line: 16
+Info (12128): Elaborating entity "mux8" for hierarchy "mux8:mux8_1" File: /home/erhangk/Documents/GitHub/Lojik/lab3/Modelsim/lab3_g8_p2_1.sv Line: 21
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 8 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 4 input pins
-    Info (21059): Implemented 2 output pins
-    Info (21061): Implemented 2 logic cells
+Info (21057): Implemented 34 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 20 input pins
+    Info (21059): Implemented 3 output pins
+    Info (21061): Implemented 11 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 17 warnings
-    Info: Peak virtual memory: 600 megabytes
-    Info: Processing ended: Sun May 14 00:12:58 2023
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Peak virtual memory: 597 megabytes
+    Info: Processing ended: Sun May 14 18:25:33 2023
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:16
 
 

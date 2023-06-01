@@ -1,0 +1,380 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/erhangk/Documents/GitHub/Lojik/odev2
+T_opt
+!s110 1685051464
+VnA^T0AlMo6Jeoh83oKIT_0
+04 13 4 work tb_lab4_g8_p2 fast 0
+=1-000ae431a4f1-646fd848-a9472-e355
+!s124 OEM10U17 
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1685046902
+VdY;an[lSFFg2^iM9Hd]Zg2
+04 13 4 work tb_lab4_g8_p1 fast 0
+=1-000ae431a4f1-646fc676-b532b-c964
+!s124 OEM10U4 
+R2
+R3
+n@_opt1
+R4
+R1
+valu
+Z5 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z6 !s110 1685058023
+!i10b 1
+!s100 [lKZ^ZD4]d4OfL?[Kbl<k2
+I7L^5_mVT6ZA<=fGIQKd2_2
+S1
+Z7 d/home/erhangk/Documents/GitHub/Lojik/lab4
+w1685058021
+8/home/erhangk/Documents/GitHub/Lojik/lab4/alu.sv
+F/home/erhangk/Documents/GitHub/Lojik/lab4/alu.sv
+!i122 121
+L0 2 28
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z10 !s108 1685058023.000000
+!s107 /home/erhangk/Documents/GitHub/Lojik/lab4/alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab4/alu.sv|
+!i113 0
+Z11 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vd_latch
+R5
+R6
+!i10b 1
+!s100 XOg4BTIX9E;B_ndbP2Q612
+I84HB12n2n[YCbcCP7oo:d2
+S1
+R7
+Z12 w1685048596
+Z13 8/home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p1.sv
+Z14 F/home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p1.sv
+!i122 116
+L0 3 8
+R8
+R9
+r1
+!s85 0
+31
+R10
+Z15 !s107 /home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p1.sv|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p1.sv|
+!i113 0
+R11
+R3
+vdlatch
+R5
+!s110 1685046824
+!i10b 1
+!s100 z=7oQh[Nizh_6cQ5VidjI2
+IoJjS53m5ZlfcTED]WN7JP0
+S1
+R7
+w1685046263
+R13
+R14
+!i122 36
+L0 3 9
+R8
+R9
+r1
+!s85 0
+31
+!s108 1685046824.000000
+R15
+R16
+!i113 0
+R11
+R3
+vFE_d_flipflop
+R5
+R6
+!i10b 1
+!s100 36k77zb1lA6d6cRla0=8l1
+IJLSWVgGmPgWNCbX@5N@W=1
+S1
+R7
+R12
+R13
+R14
+!i122 116
+L0 23 9
+R8
+R9
+r1
+!s85 0
+31
+R10
+R15
+R16
+!i113 0
+R11
+R3
+n@f@e_d_flipflop
+vfulladder
+R5
+R6
+!i10b 1
+!s100 ja]0H@z9ooJ[>GJUM8?:30
+In4Tk<?0WTZ7XG3MOY?K]:3
+S1
+R7
+Z17 w1685057553
+Z18 8/home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p2.sv
+Z19 F/home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p2.sv
+!i122 117
+Z20 L0 12 9
+R8
+R9
+r1
+!s85 0
+31
+R10
+Z21 !s107 /home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p2.sv|
+Z22 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p2.sv|
+!i113 0
+R11
+R3
+vhalfadder
+R5
+R6
+!i10b 1
+!s100 ]30[5jE1<KJZ2KRj_G4K32
+IA83kKfLXH@e_YcSL_m4Jo3
+S1
+R7
+R17
+R18
+R19
+!i122 117
+L0 2 9
+R8
+R9
+r1
+!s85 0
+31
+R10
+R21
+R22
+!i113 0
+R11
+R3
+vlab4_g8_p1
+R5
+R6
+!i10b 1
+!s100 4UU@fi?U5?L8EkZ?iYfMz1
+I3P;Z2:JngacC8OgmXbFB;2
+S1
+R7
+R12
+R13
+R14
+!i122 116
+L0 33 10
+R8
+R9
+r1
+!s85 0
+31
+R10
+R15
+R16
+!i113 0
+R11
+R3
+vlab4_g8_p2
+R5
+R6
+!i10b 1
+!s100 P@R6jLXZ78;h`_n3aifdA1
+IbohN]>ooi?3N;inofFhA82
+S1
+R7
+R17
+R18
+R19
+!i122 117
+Z23 L0 22 14
+R8
+R9
+r1
+!s85 0
+31
+R10
+R21
+R22
+!i113 0
+R11
+R3
+vlab4_g8_p3
+R5
+R6
+!i10b 1
+!s100 No[_hJAoN_PeU=K^2]<aW0
+INlA`FRojS=mzOg7dABa>42
+S1
+R7
+w1685057945
+8/home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p3.sv
+F/home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p3.sv
+!i122 120
+L0 1 40
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 /home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p3.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p3.sv|
+!i113 0
+R11
+R3
+vRCA
+R5
+!s110 1685057510
+!i10b 1
+!s100 neFYoCSeOBo59KH3>d;=32
+IZ2?VM9?g?6kob86;D8h:K1
+S1
+R7
+w1685051377
+R18
+R19
+!i122 107
+R23
+R8
+R9
+r1
+!s85 0
+31
+!s108 1685057510.000000
+R21
+R22
+!i113 0
+R11
+R3
+n@r@c@a
+vRE_d_flipflop
+R5
+R6
+!i10b 1
+!s100 G7bUHAENK=7zIQaQ^SWW73
+IJWK`P?EXa4:gN]eck[=;S1
+S1
+R7
+R12
+R13
+R14
+!i122 116
+R20
+R8
+R9
+r1
+!s85 0
+31
+R10
+R15
+R16
+!i113 0
+R11
+R3
+n@r@e_d_flipflop
+vtb_lab4_g8_p1
+R5
+R6
+!i10b 1
+!s100 =Glgj`gn6^VS@0JeAKWX@3
+IhL6YSfdITf4fFIOD[@hn^0
+S1
+R7
+w1685047997
+Z24 8/home/erhangk/Documents/GitHub/Lojik/lab4/tb_lab4_g8_p1.sv
+Z25 F/home/erhangk/Documents/GitHub/Lojik/lab4/tb_lab4_g8_p1.sv
+!i122 118
+L0 3 23
+R8
+R9
+r1
+!s85 0
+31
+R10
+Z26 !s107 /home/erhangk/Documents/GitHub/Lojik/lab4/tb_lab4_g8_p1.sv|
+Z27 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab4/tb_lab4_g8_p1.sv|
+!i113 0
+R11
+R3
+vtb_lab4_g8_p2
+R5
+R6
+!i10b 1
+!s100 4YW5kJWl9Y_JkJUJWcPbQ3
+IIHc7F0IChN`z:<?;19Xlk1
+S1
+R7
+w1685044603
+8/home/erhangk/Documents/GitHub/Lojik/lab4/tb_lab4_g8_p2.sv
+F/home/erhangk/Documents/GitHub/Lojik/lab4/tb_lab4_g8_p2.sv
+!i122 119
+L0 2 16
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 /home/erhangk/Documents/GitHub/Lojik/lab4/tb_lab4_g8_p2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/erhangk/Documents/GitHub/Lojik/lab4/tb_lab4_g8_p2.sv|
+!i113 0
+R11
+R3
+vtb_ornek
+R5
+!s110 1685046755
+!i10b 1
+!s100 V6HM4kJM60[fbJ>5SjKVS2
+I3=9PGTQiR=QPoMNe4W@I40
+S1
+R7
+w1685046753
+R24
+R25
+!i122 30
+L0 3 24
+R8
+R9
+r1
+!s85 0
+31
+!s108 1685046755.000000
+R26
+R27
+!i113 0
+R11
+R3

@@ -1,0 +1,33 @@
+/home/erhangk/Documents/GitHub/Lojik/lab5/tb_lab5_g8_p3.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab5/tb_lab5_g8_p3.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab5/lab5_g8_p4.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab5/lab5_g8_p4.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab5/tb_lab5_g8_p4.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab5/tb_lab5_g8_p4.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab5/lab5_g8_p1.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab5/lab5_g8_p1.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module lab5_g8_p1
+
+Top level modules:
+	lab5_g8_p1
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab5/lab5_g8_p2.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab5/lab5_g8_p2.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab5/counter.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab5/counter.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab5/tb_lab5_g8_p2.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab5/tb_lab5_g8_p2.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab5/lab5_g8_p3.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab5/lab5_g8_p3.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+
+} {} {}}

@@ -1,0 +1,34 @@
+/home/erhangk/Documents/GitHub/Lojik/lab4/tb_lab4_g8_p1.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab4/tb_lab4_g8_p1.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module tb_lab4_g8_p1
+
+Top level modules:
+	tb_lab4_g8_p1
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p2.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p2.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module halfadder
+-- Compiling module fulladder
+-- Compiling module lab4_g8_p2
+
+Top level modules:
+	lab4_g8_p2
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab4/tb_lab4_g8_p2.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab4/tb_lab4_g8_p2.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module tb_lab4_g8_p2
+
+Top level modules:
+	tb_lab4_g8_p2
+
+} {} {}} /home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p1.sv {1 {vlog -work work -vopt -sv -stats=none /home/erhangk/Documents/GitHub/Lojik/lab4/lab4_g8_p1.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module d_latch
+-- Compiling module RE_d_flipflop
+-- Compiling module FE_d_flipflop
+-- Compiling module lab4_g8_p1
+
+Top level modules:
+	lab4_g8_p1
+
+} {} {}}

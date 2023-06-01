@@ -1,0 +1,31 @@
+`timescale 1ns/1ps 
+
+module d_latch(
+input logic D,clk,
+output logic Q
+);
+
+always_latch
+ if (clk) Q <= D;
+endmodule
+
+module RE_d_flipflop(  //Rising Edge Flip Flop
+input logic D, clk, 
+output logic Q
+);
+
+always_ff @(posedge clk) 
+ Q <= D; 
+
+endmodule 
+
+
+module FE_d_flipflop(  //Falling Edge Flip Flop
+input logic D, clk, 
+output logic Q
+);
+
+always_ff @(negedge clk) 
+ Q <= D; 
+
+endmodule 

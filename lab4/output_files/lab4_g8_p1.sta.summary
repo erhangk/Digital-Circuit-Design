@@ -1,0 +1,41 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ALUControl[0]'
+Slack : -4.844
+TNS   : -112.004
+
+Type  : Slow 1200mV 85C Model Hold 'ALUControl[0]'
+Slack : 0.117
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ALUControl[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Setup 'ALUControl[0]'
+Slack : -4.603
+TNS   : -115.415
+
+Type  : Slow 1200mV 0C Model Hold 'ALUControl[0]'
+Slack : 0.083
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ALUControl[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Setup 'ALUControl[0]'
+Slack : -1.254
+TNS   : -13.422
+
+Type  : Fast 1200mV 0C Model Hold 'ALUControl[0]'
+Slack : -0.279
+TNS   : -1.822
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ALUControl[0]'
+Slack : -3.000
+TNS   : -3.000
+
+------------------------------------------------------------
